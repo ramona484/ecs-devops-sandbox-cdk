@@ -1,4 +1,3 @@
-"""AWS CDK module to create ECS infrastructure"""
 from aws_cdk import (core, aws_ecs as ecs, aws_ecr as ecr, aws_ec2 as ec2, aws_iam as iam)
 
 class EcsDevopsSandboxCdkStack(core.Stack):
